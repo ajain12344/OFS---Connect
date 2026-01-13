@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../supabaseClient'
-import SupplyFeed from './SupplyFeed'
-import CreatePost from './CreatePost'
-import Messages from './Messages'
-import Inventory from './Inventory'
-import Organizations from './Organizations'
+import SupplyFeed from './SupplyFeed.jsx'
+import CreatePost from './CreatePost.jsx'
+import Messages from './Messages.jsx'
+import Inventory from './Inventory.jsx'
+import Organizations from './Organizations.jsx'
 import logo from '../assets/logo.png'
 
 
