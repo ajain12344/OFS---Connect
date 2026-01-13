@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../supabaseClient'
-import SupplyFeed from './SupplyFeed.jsx'
+import SupplyFeed from './Supplyfeed.jsx'
 import CreatePost from './CreatePost.jsx'
 import Messages from './Messages.jsx'
 import Inventory from './Inventory.jsx'
