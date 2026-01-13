@@ -189,9 +189,9 @@ function SupplyFeed({ profile }) {
   const currentPosts = filteredPosts.slice(startIndex, endIndex)
 
   return (
-  <div className="grid grid-cols-4 gap-6">
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
     {/* Main Feed - Left Side (3/4 width) */}
-    <div className="col-span-3">
+    <div className="col-span-1 md:col-span-3 order-1 md:order-none">
       {/* Search Bar */}
       <div className="mb-4">
         <div className="relative">
@@ -368,7 +368,7 @@ function SupplyFeed({ profile }) {
     </div>
 
     {/* Pickup Schedule Sidebar - Right Side (1/4 width) */}
-    <div className="col-span-1">
+    <div className="col-span-1 order-2 md:order-none">
       <div className="bg-white p-4 rounded-lg shadow-md sticky top-4">
         <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
            My Pickups

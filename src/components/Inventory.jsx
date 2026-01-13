@@ -142,9 +142,9 @@ function Inventory({ profile }) {
 }
 
   return (
-    <div className="grid grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* Left Side - Inventory */}
-      <div>
+      <div className="order-2 md:order-none">
         <div className="mb-6 flex justify-between items-center">
           <h3 className="text-2xl font-bold text-gray-800">Your Inventory</h3>
           <button
@@ -295,7 +295,7 @@ function Inventory({ profile }) {
       </div>
 
       {/* Right Side - Claimed Items */}
-        <div>
+        <div className="order-1 md:order-none">
         <h3 className="text-2xl font-bold text-gray-800 mb-6">Claimed Items</h3>
         <div className="space-y-4">
             {claimedPosts
