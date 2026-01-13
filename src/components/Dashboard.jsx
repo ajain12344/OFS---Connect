@@ -45,7 +45,7 @@ function Dashboard({ session }) {
                 <p className="text-gray-500 text-sm">Food Resource Network</p>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col md:flex-row items-end md:items-center gap-2 md:gap-4">
               {profile?.organizations && (
                 <div className="text-right">
                   <p className="font-semibold text-gray-800">{profile.organizations.name}</p>
