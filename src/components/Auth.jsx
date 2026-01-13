@@ -41,7 +41,7 @@ function AuthComponent() {
         
         <form onSubmit={handleAuth} className="space-y-5">
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">{isSignUp ? 'Enter New Email Address' : 'Email Address'}</label>
             <input
               type="email"
               required
@@ -53,7 +53,7 @@ function AuthComponent() {
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">Password</label>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">{isSignUp ? 'Create Password (6 characters minimum)' : 'Enter Password'}</label>
             <input
               type="password"
               required
