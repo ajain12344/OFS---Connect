@@ -124,9 +124,9 @@ function Organizations({ profile, onMessageOrg }) {
   return (
     <div>
       <div className="mb-8">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-3xl font-bold text-gray-800">Network Agencies</h2>
-          <div className="flex gap-3">
+        <div className="mb-6">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Network Agencies</h2>
+          <div className="flex flex-col sm:flex-row gap-3">
             <button
               onClick={() => {
                 setShowAvailability(!showAvailability)
