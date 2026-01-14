@@ -6,6 +6,7 @@ import Messages from './Messages.jsx'
 import Inventory from './Inventory.jsx'
 import Organizations from './Organizations.jsx'
 import logo from '../assets/logo.png'
+import InstallPrompt from './InstallPrompt'
 
 
 function Dashboard({ session }) {
@@ -158,6 +159,7 @@ function Dashboard({ session }) {
           />
         )}
       </div>
+      <InstallPrompt />
     </div>
   )
 }
