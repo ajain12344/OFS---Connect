@@ -105,7 +105,7 @@ function Dashboard({ session }) {
             <div className="mb-8 flex justify-between items-center">
               <div>
                 <h2 className="text-3xl font-bold text-gray-800">Supply Feed</h2>
-                <p className="text-gray-600 mt-1">Connect and share resources with your network</p>
+                <p className="text-gray-600 mt-1 hidden md:block">Connect and share resources with your network</p>
               </div>
               <button
                 onClick={() => setShowCreatePost(!showCreatePost)}
